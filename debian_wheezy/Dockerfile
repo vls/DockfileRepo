@@ -33,6 +33,8 @@ apt-get update && \
         net-tools \
         procps \
         graphviz \
+        libmysqlclient-dev \
+        git \
         && \
     apt-get clean && \
     rm -rf /var/lib/apt/lists/*
