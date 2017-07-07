@@ -38,6 +38,6 @@ apt-get update && \
     rm -rf /var/lib/apt/lists/*
 
 
-RUN curl -O --insecure https://bootstrap.pypa.io/get-pip.py && \
+RUN curl -O --insecure https://raw.githubusercontent.com/pypa/get-pip/master/get-pip.py && \
     python get-pip.py && \
     rm get-pip.py
